@@ -7,7 +7,7 @@ name: Build and deploy Python app to Azure Web App - ummstest
 on:
   push:
     branches:
-      - flexible-server
+      - main
   workflow_dispatch:
 
 jobs:
